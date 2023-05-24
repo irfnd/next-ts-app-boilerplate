@@ -21,7 +21,7 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"format": "prettier --write ."
+		"format": "prettier --write \"**/*.{js,cjs,ts,tsx,json,md}\""
 	},
 	"dependencies": {
 		"next": "13.4.3",
