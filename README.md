@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next + TypeScript Boilerplate (app dir)
 
-## Getting Started
+A boilerplate/starter project for quickly building web using Next with TypeScript
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- **Linting**: using [eslint](https://eslint.org/) and [prettier](https://prettier.io/). [see more](https://nextjs.org/docs/app/building-your-application/configuring/eslint)
+- **Git hooks**: using [lint-staged](https://github.com/okonet/lint-staged). [see more](https://nextjs.org/docs/app/building-your-application/configuring/eslint#usage-with-other-tools)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Get Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Clone this repo
+  ```bash
+  git clone https://github.com/irfnd/next-ts-app-boilerplate
+  ```
+- Rename this boilerplate to whatever you want and move to that folder
+  ```bash
+  cd next-ts-app-boilerplate
+  ```
+- Delete .git folder
+- Reinitialize your git
+  ```bash
+  git init .
+  git add .
+  git commit -m "Your initialize commit"
+  ```
+- Install all packages
+  ```bash
+  npm install
+  ```
+  or
+  ```bash
+  yarn
+  ```
+- Project ready.
+- You can push/publish to your own github by changing some configuration in `package.json` based on the configuration you want.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributing
 
-## Learn More
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-To learn more about Next.js, take a look at the following resources:
+- Fork the Project
+- Create your Feature Branch `git checkout -b feature/AmazingFeature`
+- Commit your Changes `git commit -m 'Add some AmazingFeature`
+- Push to the Branch `git push origin feature/AmazingFeature`
+- Open a Pull Request
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Distributed under the [MIT](https://github.com/irfnd/next-ts-app-boilerplate/blob/master/LICENSE) License.
