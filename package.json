@@ -5,6 +5,16 @@
 	"author": "irfnd <irfandiabimanyu@gmail.com>",
 	"private": false,
 	"license": "MIT",
+	"keywords": [
+		"typescript",
+		"react",
+		"nextjs",
+		"eslint",
+		"prettier",
+		"husky",
+		"lint-staged",
+		"boilerplate"
+	],
 	"scripts": {
 		"prepare": "husky install",
 		"dev": "next dev",
